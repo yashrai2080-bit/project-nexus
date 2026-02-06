@@ -1,0 +1,38 @@
+student-dashboard/
+├── backend/
+│   ├── models/
+│   │   ├── Timetable.js
+│   │   ├── Post.js
+│   │   ├── User.js
+│   │   └── Notification.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── timetable.js
+│   │   ├── posts.js
+│   │   └── dashboard.js
+│   ├── server.js
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Sidebar.js
+│   │   │   ├── Header.js
+│   │   │   ├── DashboardCard.js
+│   │   │   ├── TimetableTable.js
+│   │   │   ├── PostCard.js
+│   │   │   ├── CourseCatalog.js
+│   │   │   ├── NotificationPanel.js
+│   │   │   └── ProfileDropdown.js
+│   │   ├── pages/
+│   │   │   ├── DailyPulse.js
+│   │   │   ├── StudentExchange.js
+│   │   │   ├── ExplorersGuide.js
+│   │   │   └── AcademicCockpit.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles.css
+│   └── package.json
+└── README.md
+
